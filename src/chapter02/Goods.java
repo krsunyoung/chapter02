@@ -7,6 +7,8 @@ public class Goods {
 	private int countStock;
 	private int countSold;
 	
+	//source에 Generate Getters and Setters 를 클릭하면 아래 처럼 다른 클래스에서 쓸수 있게끔 만들어 준다.
+	
 	public String getName() {
 		return name;
 	}
