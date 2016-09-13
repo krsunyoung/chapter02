@@ -1,6 +1,6 @@
-package mypackage;
+package bit2016.goodsman.main;
 
-import chapter02.Goods;
+import bit2016.goodsman.data.Goods;
 
 public class GoodsApp {
 
@@ -18,9 +18,14 @@ public class GoodsApp {
 		//get으로 바꿔줘야 위가 실행될수 있음.  
 		//외부에서 직접 셋팅 못하게 막는다. 
 		 
+
+		 
+		 
 		System.out.println(goods.getName() + " : " + goods.getPrice() + " : " + 
 							goods.getCountStock() + " : "+goods.getCountSold());
+		Goods goods2 = new Goods();
 		
+		 System.out.println(Goods.count); //goods , goods2 두개를 생성자호출하기때문에 Goods 에 count++ 로 인한 증가
 	}
 
 }

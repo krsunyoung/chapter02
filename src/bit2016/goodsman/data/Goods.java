@@ -1,6 +1,12 @@
-package chapter02;
+package bit2016.goodsman.data;
 
 public class Goods {
+	public Goods(){
+		//기본생성자
+		System.out.println("생성자 호출");
+		count++;
+	}
+	public static int count; //클래스 변수 , 스태틱변수 
 	
 	private String name;
 	private int price;
@@ -23,6 +29,7 @@ public class Goods {
 			price = 0 ;
 		}
 		this.price = price;
+		//객체 자신을 가르킬때 this를 쓰임.
 	}
 	public int getCountStock() {
 		return countStock;
