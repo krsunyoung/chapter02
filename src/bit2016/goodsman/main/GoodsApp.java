@@ -26,6 +26,12 @@ public class GoodsApp {
 		Goods goods2 = new Goods();
 		
 		 System.out.println(Goods.count); //goods , goods2 두개를 생성자호출하기때문에 Goods 에 count++ 로 인한 증가
+		 
+		 goods.showInfo();
+		 
+		 int discountPrice = goods.calcDiscountPrice(0.1);
+		 System.out.println( discountPrice );
+		 // int discountPrice = (int)(0.1*goods.getPrice()); 위와 동일
 	}
 
 }
