@@ -1,4 +1,6 @@
-package bit2016.paint;
+package com.bit2016.paint.point;
+
+import com.bit2016.paint.i.Drawable;
 
 public class ColorPoint extends Point implements Drawable {
 	private String color;

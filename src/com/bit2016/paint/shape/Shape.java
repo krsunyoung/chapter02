@@ -1,4 +1,4 @@
-package bit2016.paint;
+package com.bit2016.paint.shape;
 
 public abstract class Shape {
 	//abstract 메소드를 가지고 있는 것은 abstract 클래스를 가지고 있어야 한다.

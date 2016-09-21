@@ -1,4 +1,6 @@
-package bit2016.paint;
+package com.bit2016.paint.shape;
+
+import com.bit2016.paint.i.Drawable;
 
 public class Triangle extends Shape implements Drawable  {
 	private int x1;

@@ -1,5 +1,14 @@
-package bit2016.paint;
+package com.bit2016.paint.main;
 
+import com.bit2016.paint.i.Drawable;
+import com.bit2016.paint.i.Resizable;
+import com.bit2016.paint.point.ColorPoint;
+import com.bit2016.paint.point.Point;
+import com.bit2016.paint.shape.Circle;
+import com.bit2016.paint.shape.Pentagon;
+import com.bit2016.paint.shape.Rectangle;
+import com.bit2016.paint.shape.Shape;
+import com.bit2016.paint.shape.Triangle;
 
 public class PaintApp {
 

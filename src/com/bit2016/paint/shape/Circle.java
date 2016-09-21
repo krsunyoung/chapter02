@@ -1,4 +1,7 @@
-package bit2016.paint;
+package com.bit2016.paint.shape;
+
+import com.bit2016.paint.i.Drawable;
+import com.bit2016.paint.i.Resizable;
 
 public class Circle extends Shape implements Drawable, Resizable {
 	private int x1;
