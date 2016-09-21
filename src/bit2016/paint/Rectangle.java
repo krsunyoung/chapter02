@@ -1,12 +1,21 @@
 package bit2016.paint;
 
-public class Ractangle extends Shape {
+public class Rectangle extends Shape implements Drawable {
 	private int x1;
 	private int y1;
 	private int x2;
 	private int y2;
 	
-	
+	public Rectangle(){
+		//super();
+		
+	}
+	public Rectangle(int x1, int y1, int x2, int y2){
+		this.x1=x1;
+		this.y1=y1;
+		this.x2=x2;
+		this.y2=y2;
+	}
 	@Override //태크 컴파일러가 오버라이드 가능한지 확인하는 작업.
 	public void draw() {
 		
@@ -17,7 +26,10 @@ public class Ractangle extends Shape {
 		System.out.println( "사각형을 그렸습니다.");
 	}
 	//메소드에 override를 추가 
-	
+	public double calculateArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 	public int getX1() {
 		return x1;
 	}
